@@ -3,6 +3,8 @@ exp_input = '1130 1897 1850 1218 1198 1761 1082 1742 1821 1464 1834 1413 1917 17
 exp_list = [int(item) for item in exp_input.split(' ')]
 
 # NOTE: Can be done much faster. Also this could fail, because the same number in list is used twice (item and another_item are the same in first iteration).
+
+
 def find(exp):
     while exp != []:
         first_item = exp.pop(0)
