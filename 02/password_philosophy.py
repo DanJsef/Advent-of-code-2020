@@ -14,6 +14,8 @@ lines = input_file.readlines()
 
 #     return count
 
+# NOTE: Using regex would probably be better for more complex problem.
+
 
 def pass_validation(lines):
     count = 0
