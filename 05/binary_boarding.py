@@ -8,9 +8,7 @@ def translate(value, table=transtable):
 
 
 def calc_id(value):
-    row = int(value[0:7], 2)
-    col = int(value[7:10], 2)
-    return row * 8 + col
+    return int(value, 2)
 
 
 def get_ids(data):
