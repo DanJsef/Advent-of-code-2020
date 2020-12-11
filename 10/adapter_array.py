@@ -16,6 +16,8 @@ def difference(data):
 
     return diff_store[1] * diff_store[3]
 
+# NOTE: Initially solved by backtracking and dividing branches. Came across this solution and had to try it.
+
 
 def combinations(data):
     data.append(0)
